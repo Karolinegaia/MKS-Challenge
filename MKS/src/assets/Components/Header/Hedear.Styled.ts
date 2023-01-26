@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Hedear = styled.section`
+export const HeaderStyle = styled.section`
     .container {
         background-color: #004baf;        
         height: 7rem;

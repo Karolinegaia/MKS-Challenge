@@ -1,19 +1,17 @@
 import styled from "styled-components";
 
-export const StyledFooter = styled.div`
+export const FooterStyle = styled.div`
     .text{
-        background-color: #fff;        
-        height: 2rem;
-        width: 100%;               
-        color: white;
-        align-items: center;
+        display: flex;
         justify-content: center;
-        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: #E6E6FA;    
     };
 
-    .p{
-        font-size: 10px;
+    p{
+        font-size: 12px;
         display: flex;
+        color: black;
     };
-
 `

@@ -1,11 +1,10 @@
-import { Hedear } from "./Hedear.Styled"
 import { BsCart4 } from "react-icons/bs"
-
+import { HeaderStyle } from "./Hedear.Styled"
 
 
 export function Header() {
-    return (
-        <Hedear>
+    return (        
+        <HeaderStyle>
             <div className="container">
                 <div className="text">
                     <h1 className="h1">MKS</h1>
@@ -15,6 +14,6 @@ export function Header() {
                     <BsCart4 className="icon" />
                 </button>
             </div>
-        </Hedear>
-    )
+        </HeaderStyle>        
+    );
 }

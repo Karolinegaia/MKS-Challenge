@@ -1,5 +1,6 @@
-import { Header } from "../Components/Hedear/Hedear";
+import { Header } from "../Components/Header/Header";
 import { Footer } from "../Components/Footer/Footer";
+
 
 export function Ecommerce () {
     return (
