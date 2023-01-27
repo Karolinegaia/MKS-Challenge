@@ -6,7 +6,7 @@ export function Ecommerce() {
     return (
         <>
         <Header/>
-        <Product id={0} name={""} brand={""} description={""} image={""} price={0}/>
+        <Product id={0} name={""} brand={""} description={""} image={""} price={1000}/>
         <Footer/>        
         </>        
     );

@@ -1,3 +1,4 @@
+import { FiShoppingBag } from "react-icons/fi";
 import { CardProduct } from "./Product.styled";
 
 export type ProductProps = {
@@ -23,6 +24,7 @@ export function Product(props: ProductProps) {
                         <p className="price">{props.price}</p>
                     </div>
                     <button className="buy">
+                        <FiShoppingBag className="bag"/>
                         <p>Comprar</p>
                     </button>
                 </div>
