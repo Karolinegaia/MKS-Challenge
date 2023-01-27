@@ -16,6 +16,19 @@ export const CardProduct = styled.section`
     padding-top: 13rem;
     padding-bottom: 12.5rem;
 }
+.price-div{
+    width: 4rem;
+    height: 1.5rem;
+    background-color:#373737;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;       
+}
+.price{        
+    font-size: 15px;
+    color: #FFFFFF;    
+    
+}
 .buy{
     display: flex;
     align-items: center;

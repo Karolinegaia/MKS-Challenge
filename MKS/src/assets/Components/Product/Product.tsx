@@ -21,9 +21,9 @@ export function Product(props: ProductProps) {
                     <strong>{props.name}</strong>
                     <p className="description">{props.description}</p>
                     <div className="price-div">
-                        <p className="price">{props.price}</p>
+                        <strong className="price">{props.price}</strong>
                     </div>
-                    <button className="buy">
+                    <button className="buy" type="submit">
                         <FiShoppingBag className="bag"/>
                         <p>Comprar</p>
                     </button>
