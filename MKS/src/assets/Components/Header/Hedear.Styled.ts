@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderStyle = styled.section`
     .container {
-        background-color: #004baf;        
+        background-color: #0F52BA;        
         height: 7rem;
         width: 100%;
         padding-left: 2rem;        
@@ -28,15 +28,15 @@ export const HeaderStyle = styled.section`
 
     .p{
         padding-top: 20px;
-        font-size: 35px;        
+        font-size: 22px;        
     }
 
     .cart {
-        width: 80px;
-        height: 40px;
+        width: 90px;
+        height: 45px;
         margin-right:3rem ;
-        border-radius: 5px;
-        border-color: #FFFF;
+        border-radius: 8px;
+        border: none;
         background-color: white;
         
         .icon {

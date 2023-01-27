@@ -6,7 +6,11 @@ export const FooterStyle = styled.div`
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #E6E6FA;    
+        background-color: #E6E6FA;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        height: 34px;
     };
 
     p{

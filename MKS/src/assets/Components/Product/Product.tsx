@@ -1,8 +1,9 @@
 import { CardProduct } from "./Product.styled";
 
 export type ProductProps = {
-    idProduct: number;
+    id: number;
     name: string;
+    brand: string;
     description: string;
     image: string;
     price: number;
@@ -13,16 +14,18 @@ export type ProductProps = {
 export function Product(props: ProductProps) {
     return (
         <CardProduct>
-            <div className="container">
-                <img className="image" src="" alt="" />
-                <strong>Apple</strong>
-                <p className="description">Aplle Watch</p>
-                <div className="price-div">
-                    <p className="price">R$ 100,00</p>
+            <div className="Card">
+                <div className="container">
+                    <img className="image" src={props.image} alt="" />
+                    <strong>{props.name}</strong>
+                    <p className="description">{props.description}</p>
+                    <div className="price-div">
+                        <p className="price">{props.price}</p>
+                    </div>
+                    <button className="buy">
+                        <p>Comprar</p>
+                    </button>
                 </div>
-                <button>
-                    <p>Comprar</p>
-                </button>
             </div>
         </CardProduct>
     );
