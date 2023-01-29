@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardProduct = styled.section`
+export const ProductStyle = styled.section`
 .Card{
     background-color: #E5E5E5;
     width: 100%;

@@ -1,23 +1,22 @@
 import { FiShoppingBag } from "react-icons/fi";
-import { CardProduct } from "./Product.styled";
+import { ProductStyle } from "./Product.styled";
 
-export type ProductProps = {
+export type CardProductProps = 
+    {
     id: number;
     name: string;
     brand: string;
     description: string;
-    image: string;
+    photo: string;
     price: number;
-
 }
 
-
-export function Product(props: ProductProps) {
+export function CardProduct(props: CardProductProps) {
     return (
-        <CardProduct>
+        <ProductStyle>
             <div className="Card">
                 <div className="container">
-                    <img className="image" src={props.image} alt="" />
+                    <img className="image" src={props.photo} alt="" />
                     <strong>{props.name}</strong>
                     <p className="description">{props.description}</p>
                     <div className="price-div">
@@ -29,6 +28,6 @@ export function Product(props: ProductProps) {
                     </button>
                 </div>
             </div>
-        </CardProduct>
+        </ProductStyle>
     );
 }

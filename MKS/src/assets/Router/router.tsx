@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import {Ecommerce} from "../Page/Ecommerce";
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
     {
       path: "/",
       element: <Ecommerce/>,
