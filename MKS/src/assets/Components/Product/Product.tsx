@@ -2,7 +2,7 @@ import { FiShoppingBag } from "react-icons/fi";
 import { ProductStyle } from "./Product.styled";
 
 export type CardProductProps = 
-    {
+    {              
     id: number;
     name: string;
     brand: string;
